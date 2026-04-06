@@ -17,7 +17,8 @@ makedepends = [
     "sdl2-compat-devel",
     "openal-soft-devel",
     "qt6-qtbase-devel",
-    "qt6-qttools-devel"
+    "qt6-qttools-devel",
+    "qt6-qt5compat-devel"
 ]
 pkgdesc = "Emulator of x86-based machines."
 license = "GPL-2.0"
