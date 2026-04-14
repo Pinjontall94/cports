@@ -2,6 +2,7 @@ pkgname = "dasm"
 pkgver = "2.20.14.1"
 pkgrel = 0
 build_style = "makefile"
+make_check_target = "test"
 pkgdesc = "Macro assembler with support for several 8-bit microprocessors"
 license = "GPL-2.0-only"
 url = "https://dasm-assembler.github.io"
