@@ -1,0 +1,9 @@
+pkgname = "fasm"
+pkgver = "1.73.35"
+pkgrel = 0
+build_style = "empty"
+pkgdesc = "Simple package"
+license = "BSD-3-Clause"
+url = "https://flatassembler.net"
+source = f"https://flatassembler.net/fasm-{pkgver}.tgz"
+sha256 = "a34dec7d0bc2dc79faabb68bd8bc2f62b6cfb31d69c01449367ce4cd8098934e"
