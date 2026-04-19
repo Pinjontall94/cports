@@ -1,7 +1,13 @@
 pkgname = "libdispatch"
 pkgver = "6.1.1"
 pkgrel = 0
-build_style = "configure"
+build_style = "cmake"
+makedepends = [
+    "cmake",
+    "git",
+    "libbpf-tools",
+    "ninja",
+]
 pkgdesc = "Provide support for concurrent execution on multicore hardware"
 license = "Apache-2.0"
 url = "http://swift.org"
