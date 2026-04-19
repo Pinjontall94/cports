@@ -1,0 +1,9 @@
+pkgname = "libdispatch"
+pkgver = "6.1.1"
+pkgrel = 0
+build_style = "configure"
+pkgdesc = "The libdispatch Project, (a.k.a. Grand Central Dispatch), for concurrency on multicore hardware"
+license = "Apache-2.0"
+url = "http://swift.org"
+source = f"https://github.com/swiftlang/swift-corelibs-libdispatch/archive/refs/tags/swift-{pkgver}-RELEASE.tar.gz"
+sha256 = "6fc6f8b1767a1348e1d960647b2bfbc52fd7074b7aeab97bd0f4b21af58baa47"
